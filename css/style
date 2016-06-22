@@ -1,0 +1,107 @@
+<style type="text/css">
+
+body {
+ 	 	color: black;
+      
+}
+
+p {
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    margin-bottom:50px;
+}
+ 
+h2 {
+    font-size: 48px;
+   
+    
+} 
+
+.navbar {
+  
+        background-color: #dbe9d8;
+
+}
+
+#active_nav {
+        background-color: #c2d4d8;
+}
+
+.container{
+    padding-top: 50px;
+    margin-top: 50px;
+
+}
+
+.jumbotron {
+    margin-left: 0%;
+    background-color: #c2d4d8;       
+        
+}
+
+
+#contact {
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.photo {
+    
+    border-radius: 100px;
+   
+}
+
+
+
+#stylesign {
+        background-image: url("blue.jpg");
+        padding-left: 80px;
+        padding-top: 50px;
+        
+}
+
+#placeholder1 {
+    
+    float:left;width:150px;height:200px; 
+    margin-right: 10px;
+
+}
+
+#placeholder2 {
+    float:right;width:75px;height:150px;
+    margin-left: 10px;
+}
+
+/* blocks display of larger image */
+@media all and (max-width: 400px) {
+        #placeholder1 {
+        display: none;
+
+        }
+    
+}
+/* will eliminate nav bar when printing */
+@media print{
+    nav {
+        display: none;
+    }
+}
+
+ /* mouse over link */
+    a:hover {
+    border-color: red;
+    }
+
+</style>
+
+
+ 
